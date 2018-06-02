@@ -1,0 +1,36 @@
+<!doctype html>
+<html ng-app="app">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular.min.js"></script>
+    <script src="dist/app.module.js"></script>
+    <script src="dist/app.config.js"></script>
+    <script src="dist/to-do/todoController.js"></script>
+    <script src="dist/to-do/todoComponent.js"></script>
+</head>
+
+<body>
+
+    <to-do></to-do>
+
+
+
+    <!-- <div data-ui-view=""></div> -->
+
+    <!-- <div ng-controller="indexController as app">
+         <center>
+            <h2>Welcome!</h2>
+                <br />
+            <h3>Enter your name below:</h3>
+            <input type="text" ng-model="name1" placeholder="Scope variable name" />
+                <br /><br />
+            <input type="text" ng-model="app.name2" placeholder="Controller variable name" />
+                <br /><br />
+            <h2 ng-if="name1 != ''"> Hello {{name1}} </h2>
+                <br />
+            <h2 ng-if="app.name2 != ''"> Hi {{app.name2}} </h2>
+         </center>
+     </div> -->
+</body>
+
+</html>
